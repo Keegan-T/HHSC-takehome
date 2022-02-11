@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Keegan-T/HHSC-takehome/static/css/main.3d1482b7.css",
+    "main.js": "/Keegan-T/HHSC-takehome/static/js/main.1f804ede.js",
+    "index.html": "/Keegan-T/HHSC-takehome/index.html",
+    "main.3d1482b7.css.map": "/Keegan-T/HHSC-takehome/static/css/main.3d1482b7.css.map",
+    "main.1f804ede.js.map": "/Keegan-T/HHSC-takehome/static/js/main.1f804ede.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d1482b7.css",
+    "static/js/main.1f804ede.js"
+  ]
+}
