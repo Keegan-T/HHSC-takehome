@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #A3BAC3;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 30px;
+    color: white;
+    background-color: #006989;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* FORM */
+
+#form-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    padding: 40px 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #555;
+}
+
+#error {
+    margin: 10px 0;
+    color: red;
+}
+
+label {
+    font-size: 18px;
+    text-align: left;
+}
+
+input, select {
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(165, 164, 164);
+    border-radius: 5px;
+    min-width: 250px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    background-color: rgb(245, 245, 245);
+    transition: 0.1s ease;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    background-color: #01a7c2;
+    border: none;
+    border-radius: 5px;
+}
+
+#back {
+    margin-top: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #007a8d;
+    transition: 0.1s ease;
+}
+
+/* SUMMARY */
+
+#summary-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#summary {
+    padding: 40px 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #555;
+}
+
+#summary h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#healthCard {
+    -webkit-text-security: disc;
+}
+
+li {
+    list-style: none;
+    width: 250px;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+    min-width: 250px;
+    text-align: left;
+}
